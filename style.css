@@ -42,18 +42,14 @@ body{
     border: 2px solid #ffa500;
     padding: 10px 5px 0px 30px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #218838 ;
+    
 }
-.cat:hover{
-    background-color: #ffa500;
-    color: black;
+
 }
 .cat:hover span{
     color:#218838;
 }
-.quote:hover p{
-    color:black;
-}
+
 
 
 .categories p{
@@ -132,8 +128,7 @@ color: #FFA500;
     
 }
 #popp:hover{
-   
-    background-color: #FFA500;
+   color: #FFA500;
     
 }
 
@@ -157,7 +152,7 @@ color: #FFA500;
   
   .navBar span:hover{
       color: white;
-      font-size: 20px;
+      font-size: 17px;
   }
   .teamMember img{
       height: 200px;
@@ -172,5 +167,11 @@ color: #FFA500;
          font-size: 40px;
          padding-bottom: 40px;
      }
-    
-   
+    .dropdown{
+        background-color: #218838;
+    }
+   #popp :hover{
+       color: #FFA500;
+       font-size: 20px;
+       
+   }

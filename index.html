@@ -3,7 +3,7 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <title>Nahid Fitness</title>
       <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <link rel="stylesheet" href="style.css">
@@ -23,27 +23,49 @@
                   <li class="nav-item active  ">
                     <a  class="nav-link " href="#"><span>Home</span> <span class="sr-only">(current)</span></a>
                   </li>
-                  <li class="nav-item ">
+                  <div class="dropdown">
+                    <button style="background-color: #218838; border: none;" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categories
+                    </button>
+                    <div style="background-color: #ffa500;" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#ladies">Ladies</a>
+                      <a class="dropdown-item" href="#gents">Gents</a>
+                      
+                    </div>
+                  </div>
+                  <!-- <li class="nav-item ">
                     <a class="nav-link" href="#ladies"><span>Ladies</span></a>
                   </li>
+                  
                   <li class="nav-item">
                     <a class="nav-link" href="#gents"><span>Gents</span></a>
-                  </li>
+                  </li> -->
                   <li class="nav-item">
                     <a class="nav-link" href="#shop"><span>Shop</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#signup"><span>SignUp</span></a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href="#about"><span>About</span></a>
-                  </li>
+                  </li> -->
+                  <div class="dropdown">
+                    <button style="background-color: #218838; border: none;" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Contact Us
+                    </button>
+                    <div style="background-color: #ffa500;" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#about">About</a>
+                      <a class="dropdown-item" href="#location">Location</a>
+                      <a class="dropdown-item" href="#member">Our Trainers</a>
+                    </div>
+                  </div>
                 </ul>
+                
                 <a id="popp" title="Contact Us" data-toggle="popover" data-placement="top" data-content=" Email: nahidxbd87@gmail.com
                
                 facebook.com/nahidxbd
                 
-                Call:01303815116">Contact</a>
+                Call:01303815116"><span style="color:tomato;">NeedHelp?</span></a>
                 
                     <input style="margin-left: 100px;" class="form-control mr-sm-2" type="search" placeholder="Search here" >
                     <button style="color: #ffa500;" class="btn my-2 my-sm-0" type="submit">Search</button>
@@ -132,8 +154,8 @@
           </div>
           </div>
           <div class="col-md-4">
-          <div class="d-flex justify-content-between align-items-center cat">
-          <h4 id="servicesHeading"><span>Our Services</span></h4>
+          <div style="border-color: #218838;" class="d-flex justify-content-between align-items-center cat">
+          <h4  id="servicesHeading"><span>Our Services</span></h4>
           <ul>
             
             <li>Free parking</li>
@@ -142,7 +164,7 @@
             <li>Pro Weight Loss</li>
           </ul>
           
-            <img src="" alt="">
+            
           </div>
           </div>
           
@@ -299,6 +321,7 @@
           </div>
         </div>
         
+        
       </div>
       <!-- subscribe section -->
       <h3 id="signUp">Sign Up for Membership & Get Discount  👇  :</h3>
@@ -360,10 +383,11 @@
           </div>
         </form>
       </section>
+     
 <!-- Team member Section -->
-<div class="container">
+<div class="container" id="member">
   <h3 id="trainerHeading">Our Trainers :</h3>
-   <div class="row teamMember">
+   <div style="margin-left: 20px;" class="row teamMember">
      <div class="col-md-3">
       <img title="John"  src="images/Team member/1.jpg" class="rounded-circle"  alt="Cinque Terre">
      </div>
@@ -381,7 +405,7 @@
 
      
       <!-- about us section -->
-      <div class="container p-3 " id="about" style="text-align: center;">
+      <div class="container p-3 " id="about"  style="text-align: center;">
        
         <h4><span style="color: #ffa500;">Nahid</span> Fitness Center</h4>
               
@@ -404,11 +428,14 @@
               : Uttara,Dhaka,Bangladesh
                 </p>
                </div>
-              
+              <div style="padding-top: 100px;" id="location">
+              <h6 style="color: #218838;">Google map location 👇</h6>
+                <img style="width: 300px; height: 300px; " src="images/Google Map/google-map.jpg"  alt="">
+              </div>
              
       </div>
     
-      <img  src="images/new logo.PNG"  alt="" class="center">
+     
       <footer>
         <small>©<span style="color: #ffa500;">Nahid</span> Fitness Point.All rights reserved.Dhaka,Bangladesh||<span style="color: #218838;">2020</span>||</small>
       </footer>
